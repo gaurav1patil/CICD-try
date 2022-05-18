@@ -1,0 +1,6 @@
+pip == 21.0.1
+pandas
+sklearn
+matplotlib
+seaborn
+numpy
