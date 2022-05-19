@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 
 df1 = pd.read_csv('train.csv', index_col = 0)
-
+# testing
 null_col_list = []
 
 for col in filter((lambda x : df1[x].isnull().sum() > 0), df1.isnull().sum().index):
